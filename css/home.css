@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Cursive-Handwritten'; /*a name to be used later*/
+    src: url('/YachtsAndChampagne/fonts/GreatVibes-Regular.ttf'); /*URL to font*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: #1b1725;
+    color: white;
+}
+
+#header-title {
+    font-family: 'Cursive-Handwritten';
+    font-size: 55px;
+    margin-right: auto;
+    margin-left: 35px;
+}
+
+#nav-links {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    margin-right: 35px;
+}
+
+.nav-link {
+   color: white;
+   text-decoration: none;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 25px;
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url('/YachtsAndChampagne/images/SunsetAndPalmTrees.avif');
+    background-size: 100%;
+    color: white;
+    align-items: center;
+}
+
+#hero-title {
+    margin-top: 200px;
+    font-size: 150px;
+    font-family: 'Cursive-Handwritten';
+}
+
+#hero-subtitle {
+    font-family: 'Cursive-Handwritten';
+    margin-top: 45px;
+    margin-bottom: 250px;
+    font-size: 50px;
+}
+
+.hero-text {
+    margin-top: 25px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hero-button {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 35px;
+    border: solid 3px;
+    padding: 20px;
+}
+
+footer {
+    height: 150px;
+}
